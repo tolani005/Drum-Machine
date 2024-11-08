@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+#drum-machine {
+  width: 300px;
+  text-align: center;
+}
+
+.drum-pad {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.drum-pad:active {
+  background-color: #21a1f1;
+}
+
+#display {
+  margin-top: 20px;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+}
